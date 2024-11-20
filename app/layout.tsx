@@ -6,7 +6,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Bank app",
   description: "Modern banking platform",
-  icons: "/icons/logo.svg"
+  icons: "/logo.svg"
 };
 
 export default function RootLayout({
