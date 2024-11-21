@@ -82,8 +82,9 @@ export default function Sidebar() {
           />
           </div>
 
-          <div className="text-black mb-2">
+          <div className="flex flex-col text-black mb-2">
             <h5 className="text-black font-semibold text-sm">Paris Watson</h5>
+            <p className="text-black text-xs">Parisw746@gmail.com</p>
           </div>
         </div>
         <button

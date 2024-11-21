@@ -95,7 +95,7 @@ export default function BottomNavigation() {
             href={route}
             className={`text-center flex-1 ${getLinkClassName(route)}`}
           >
-            {Icon && <Icon className="mx-auto text-2xl font-bold" />}
+            {Icon && <Icon className="mx-auto text-2xl font-bold w-[25px] h-[25px]" />}
             <div className="text-sm">{label}</div>
           </Link>
         ))}

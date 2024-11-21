@@ -15,7 +15,7 @@ const SignIn = () => {
     e.preventDefault();
 
     try {
-      if (email === "ak@gmail.com" && password === "password123") {
+      if (email === "Parisw746@gmail.com" && password === "Paris1234") {
         toast.success("Logged in successfully!", {
           icon: "✅",
         });

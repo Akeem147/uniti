@@ -6,7 +6,11 @@ import React, { useState } from 'react';
 const MyBanksPage: React.FC = () => {
   // Sample data for transactions
   const transactions = [
-    { date: '2024-11-01', description: 'Facebook Treasury Deposit', amount: 3000000, type: 'credit' },
+    { id: 1, date: "2024-11-19", description: "Facebook Treasury Deposit", amount: 750000, type: "credit" },
+    { id: 2, date: "2024-11-19", description: "Facebook Treasury Deposit", amount: 750000, type: "credit" },
+    { id: 3, date: "2024-11-19", description: "Facebook Treasury Deposit", amount: 750000, type: "credit" },
+    { id: 4, date: "2024-11-19", description: "Facebook Treasury Deposit", amount: 750000, type: "credit" },
+  
   ];
 
   const [visibleTransactions, setVisibleTransactions] = useState(5);
@@ -17,7 +21,7 @@ const MyBanksPage: React.FC = () => {
 
   return (
    <ProtectedRoute>
-     <div className="w-full h-auto md:px-3 lg:px-0 bg-slate-100 mb-[60px] lg:mb-0 pt-[70px] lg:pt-0">
+     <div className="w-full h-auto md:px-3 lg:px-4 bg-slate-100 mb-[60px] lg:mb-0 pt-[70px] lg:pt-0">
       <div className="rounded-lg w-full max-w-[900px] p-6">
         {/* Header Section */}
         <div className="flex justify-between items-center border-b pb-4 mb-2">

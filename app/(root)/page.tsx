@@ -5,7 +5,7 @@ import RightSidebar from "@/components/RightSidebar";
 import ProtectedRoute from "@/components/ProtectedRoute";
 
 export default function Home() {
-  const loggedIn = { firstName: "Paris Watson.", lastName: "Watson",  email: "Waltsonparis22@gmail.com"};
+  const loggedIn = { firstName: "Paris Watson.", lastName: "Watson",  email: "Parisw746@gmail.com"};
   return (
    <ProtectedRoute>
     <div>

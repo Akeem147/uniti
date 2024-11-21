@@ -10,7 +10,10 @@ interface Transaction {
 }
 
 const transactions: Transaction[] = [
-  { id: 1, date: "2024-11-06", description: "Facebook Treasury Deposit", amount: 3000000, type: "credit" },
+  { id: 1, date: "2024-11-19", description: "Facebook Treasury Deposit", amount: 750000, type: "credit" },
+  { id: 2, date: "2024-11-19", description: "Facebook Treasury Deposit", amount: 750000, type: "credit" },
+  { id: 3, date: "2024-11-19", description: "Facebook Treasury Deposit", amount: 750000, type: "credit" },
+  { id: 4, date: "2024-11-19", description: "Facebook Treasury Deposit", amount: 750000, type: "credit" },
 ];
 
 const RecentTransact: FC = () => {
@@ -21,7 +24,7 @@ const RecentTransact: FC = () => {
   };
 
   return (
-    <div className="w-full h-auto md:px-5 px-4 lg:px-5  bg-slate-100 rounded-lg shadow-md">
+    <div className="w-full h-auto md:px-5 px-4 lg:px-5  bg-slate-100 rounded-lg shadow-md mb-[50px]">
       <h2 className="text-2xl font-semibold text-gray-800 mb-4">Recent Transactions</h2>
       <ul className="divide-y divide-gray-200">
         {transactions.slice(0, visibleTransactions).map((transaction) => (

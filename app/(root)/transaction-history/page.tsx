@@ -12,7 +12,10 @@ interface Transaction {
 
 // Transactions array defined here
 const transactions: Transaction[] = [
-  { id: 1, date: "2024-11-06", description: "Facebook Treasury Deposit", amount: 3000000, type: "credit" },
+  { id: 1, date: "2024-11-19", description: "Facebook Treasury Deposit", amount: 750000, type: "credit" },
+  { id: 2, date: "2024-11-19", description: "Facebook Treasury Deposit", amount: 750000, type: "credit" },
+  { id: 3, date: "2024-11-19", description: "Facebook Treasury Deposit", amount: 750000, type: "credit" },
+  { id: 4, date: "2024-11-19", description: "Facebook Treasury Deposit", amount: 750000, type: "credit" },
 
 ];
 
@@ -25,7 +28,7 @@ const RecentTransactionsWithShowMore: FC = () => {
 
   return (
    <ProtectedRoute>
-     <div className="w-full flex flex-col justify-between md:gap-[55px] pt-[90px] lg:pt-5 min-h-screen md:px-5 px-4 pb-10 lg:px-5 bg-slate-100 rounded-lg shadow-md">
+     <div className="w-full flex flex-col justify-between md:gap-[55px] pt-[90px] lg:pt-5 min-h-screen md:px-5 px-4 pb-10 lg:px-8 bg-slate-100 rounded-lg shadow-md">
       <div>
         <h2 className="text-2xl font-bold text-gray-800 mb-4">
           Recent Transactions

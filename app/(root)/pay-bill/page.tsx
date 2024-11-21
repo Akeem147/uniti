@@ -41,7 +41,7 @@ const PayBill: FC = () => {
 
   return (
     <ProtectedRoute>
-      <div className="h-auto lg:h-screen md:px-6 px-3 lg:px-0 mb-[60px] pt-[70px] lg:pt-0 lg:mb-0">
+      <div className="h-auto lg:h-screen md:px-6 px-3 lg:px-5 mb-[60px] pt-[70px] lg:pt-0 lg:mb-0">
        <Toaster />
       <div className="max-w-[950px] mx-auto bg-slate-100 shadow-md rounded-lg py-6 lg:px-4 md:px-3 px-2.5 space-y-6">
         {/* Header */}
@@ -122,7 +122,7 @@ const PayBill: FC = () => {
             <li className="flex justify-between items-center bg-gray-50 p-4 rounded-lg">
               <div>
                 <p className="text-gray-700 font-medium">Utility Company</p>
-                <p className="text-gray-500 text-sm">Paid: Nov 1, 2024</p>
+                <p className="text-gray-500 text-sm">Paid: Nov 20, 2024</p>
                 <p className="text-gray-500 text-sm">Confirmation #: 123456</p>
               </div>
               <p className="text-red-600 font-semibold">-$120.00</p>
@@ -130,7 +130,7 @@ const PayBill: FC = () => {
             <li className="flex justify-between items-center bg-gray-50 p-4 rounded-lg">
               <div>
                 <p className="text-gray-700 font-medium">Credit Card</p>
-                <p className="text-gray-500 text-sm">Paid: Oct 15, 2024</p>
+                <p className="text-gray-500 text-sm">Paid: Nov 20, 2024</p>
                 <p className="text-gray-500 text-sm">Confirmation #: 654321</p>
               </div>
               <p className="text-red-600 font-semibold">-$200.00</p>
