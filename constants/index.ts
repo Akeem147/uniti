@@ -13,8 +13,6 @@ interface SidebarLink1 {
 }
 
 
-
-
 // Define the sidebar links
 export const sidebarLinks1: SidebarLink1[] = [
   {

